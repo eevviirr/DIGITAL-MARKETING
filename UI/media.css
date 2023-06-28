@@ -1,0 +1,43 @@
+@media screen and (max-width: 1500px) {
+    .header__container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .language::after{
+        width: 100%;
+    }
+    .about__container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .novelties__content--top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .novelties__content--center ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1275px) {
+    .services__container{
+        gap: 56px;
+    }   
+}
+
+@media screen and (max-width: 990px) {
+    .header__container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .language::after{
+        width: 100%;
+    }
+    .hero__services ul{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .mini--services:not(.mini--services:first-child) {
+        margin-left: 0;
+    }
+}
